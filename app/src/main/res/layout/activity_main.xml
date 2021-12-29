@@ -1,18 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/plain_login_signup"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:layout_width="239dp"
+        android:layout_height="186dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/small_logo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Username"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/mobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Mobile Number"
+        android:padding="8dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobileNo"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Password"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/cfmPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Confirm Password"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cfmPwd"
+        android:layout_alignStart="@+id/cfmPwd"
+        android:layout_alignEnd="@+id/cfmPwd"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/button_bg"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/loginBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textColor="#fff"
+        android:text="Already a member? Sign in here"
+        android:layout_below="@+id/signUpBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".EditProfileActivity">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the details below"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginTop="10dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/cfmPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pwd"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm New Password"
+        android:inputType="numberPassword"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Save Changes"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/cfmPwd"/>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateBtn"
+        android:layout_marginTop="30dp"
+        android:text="Remove Account"
+        android:textSize="20dp" />
+
+</RelativeLayout>

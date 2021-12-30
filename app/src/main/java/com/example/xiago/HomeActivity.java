@@ -15,8 +15,6 @@ import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
 
-    RecyclerView featuredRecycler;
-    RecyclerView.Adapter adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,26 +28,8 @@ public class HomeActivity extends AppCompatActivity {
         //Setting Home Fragment as main fragment
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_layout,new HomeFragment()).commit();
-
-        featuredRecycler = findViewById(R.id.featured_recycler);
-        featuredRecycler();
-
     }
 
-    private void featuredRecycler() {
-
-        featuredRecycler.setHasFixedSize(true);
-        featuredRecycler.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL, false));
-
-        ArrayList<FeaturedHelperClass> featuredLocations = new ArrayList<>();
-
-        featuredLocations.add(new FeaturedHelperClass(R.drawable.featured1,"Xiamen Hongkeng Hakka Earth Building - Group Day Tour","Full Day Tour"));
-        featuredLocations.add(new FeaturedHelperClass(R.drawable.featured2,"Xiamen Botanical Garden","Park"));
-        featuredLocations.add(new FeaturedHelperClass(R.drawable.featured3,"Zhongsan Road Walking Street","Historic Walking Area"));
-
-        adapter = new FeaturedAdapter(featuredLocations);
-        featuredRecycler.setAdapter(adapter);
-    }
 
     //Listener Nav
     private BottomNavigationView.OnNavigationItemSelectedListener navListener = new

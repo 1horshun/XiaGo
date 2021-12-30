@@ -36,6 +36,39 @@ public class HomeFragment extends Fragment {
             }
         });
 
+        view.findViewById(R.id.hotel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment next_fragment = new HotelFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("categoryName", "hotels");
+                next_fragment.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_layout,next_fragment).commit();
+            }
+        });
+
+        view.findViewById(R.id.mall).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment next_fragment = new MallFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("categoryName", "malls");
+                next_fragment.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_layout,next_fragment).commit();
+            }
+        });
+
+        view.findViewById(R.id.attraction).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment next_fragment = new AttractionFragment();
+                Bundle bundle = new Bundle();
+                bundle.putString("categoryName", "attractions");
+                next_fragment.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_layout,next_fragment).commit();
+            }
+        });
+
         return view;
 
     }

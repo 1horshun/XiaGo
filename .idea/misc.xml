@@ -16,9 +16,12 @@
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/featured_card_design.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_attraction.xml" value="0.21510416666666668" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_favourites.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_home.xml" value="0.264" />
-        <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_restaurant.xml" value="0.16510416666666666" />
+        <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_hotel.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_mall.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_restaurant.xml" value="0.264" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/fragment_settings.xml" value="0.23854166666666668" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/login_tab_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/hor_s/Desktop/XiaGo/app/src/main/res/layout/signup_tab_fragment.xml" value="0.264" />

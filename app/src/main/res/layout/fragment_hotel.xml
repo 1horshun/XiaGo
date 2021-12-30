@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#C0EAFE"
+    android:background="#FFE0B1"
     android:padding="10dp"
-    tools:context=".RestaurantFragment">
+    tools:context=".HotelFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,11 +14,11 @@
 
         <RelativeLayout
             android:layout_width="392dp"
-            android:layout_height="1325dp"
+            android:layout_height="1300dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="5dp"
-            android:background="#AFDDF3">
+            android:background="#FDEDD4">
 
             <LinearLayout
                 android:id="@+id/featured_background"
@@ -28,7 +28,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:background="#C0EAFE"
+                android:background="#FFE0B1"
                 android:orientation="vertical">
 
                 <TextView
@@ -37,7 +37,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="Restaurants"
+                    android:text="Hotels"
                     android:textAllCaps="true"
                     android:textSize="25sp"
                     android:textColor="@color/black"/>
@@ -48,7 +48,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif-light"
-                    android:text="Popular Restaurants in Xiamen"
+                    android:text="Popular Hotels in Xiamen"
                     android:textColor="@color/black"/>
 
             </LinearLayout>
@@ -72,13 +72,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="140dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/restaurant1" />
+                        android:src="@drawable/hotel1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="CAFE AMOY"
+                        android:text="Swiss Grand Xiamen"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -87,22 +87,22 @@
                         android:layout_height="wrap_content"
                         android:rating="4.5" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Location: No.168 Taidong Road, Siming District 1/F, Shangri-La Hotel, Xiamen, Xiamen 361008 China"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Location: No.12 Lu Jiang Dao, Si Ming District - Zhongshan Road, Xiamen, China, 361001"/>
 
-                        <TextView
-                            android:id="@+id/call1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Tel: +86 592 838 5888"/>
+                    <TextView
+                        android:id="@+id/call1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tel: +86 592 636 6666"/>
 
-                        <TextView
-                            android:id="@+id/website1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Go to website"/>
+                    <TextView
+                        android:id="@+id/website1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Go to website"/>
 
                 </LinearLayout>
 
@@ -127,13 +127,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="140dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/restaurant2" />
+                        android:src="@drawable/hotel2" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="KaiSa Western Restaurant"
+                        android:text="Hilton Xiamen"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -145,18 +145,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Location: HuBin North Road 19, FanTaiPingYang Hotel 3 Floor, Xiamen China"/>
+                        android:text="Location: No.199, Jiahe Road, Siming District, Xiamen, China, 361012"/>
 
                     <TextView
                         android:id="@+id/call2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tel: +86 592 507 8888"/>
+                        android:text="Tel: +86 592 539 9999"/>
 
                     <TextView
+                        android:id="@+id/website2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="No website information available"/>
+                        android:text="Go to Website"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -180,13 +181,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="140dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/restaurant3" />
+                        android:src="@drawable/hotel3" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Lian Yuan (ShaMen MaGe Bei Luo DongFang Restaurant)"
+                        android:text="Millennium Harbourview Hotel Xiamen"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -198,13 +199,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Location: Marco Polo Xiamen, No.8 North Jianye Road, Hubin District, Xiamen China"/>
+                        android:text="Location: No. 12-8 Zhen Hai Road, Si Ming District - Zhongshan Road, Xiamen, China, 361001"/>
 
                     <TextView
                         android:id="@+id/call3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tel: +86 592 509 1888"/>
+                        android:text="Tel: +86 10 8587 6888"/>
 
                     <TextView
                         android:id="@+id/website3"
@@ -219,7 +220,7 @@
                 android:layout_width="370dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="1005dp"
+                android:layout_marginTop="980dp"
                 android:layout_marginRight="10dp"
                 android:elevation="8dp"
                 app:cardCornerRadius="3dp">
@@ -234,13 +235,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="140dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/restaurant4" />
+                        android:src="@drawable/hotel4" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif-medium"
-                        android:text="Jacky Angela Steakhouse"
+                        android:text="Langham Place Xiamen"
                         android:textSize="18sp" />
 
                     <RatingBar
@@ -252,13 +253,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Location: 199 Jiahe Road Panji Hilton Hotel, Xiamen 361012 China"/>
+                        android:text="Location: 4668, Xianyue Road, Hu Li District, Xiamen, China, 361009"/>
 
                     <TextView
                         android:id="@+id/call4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Tel: +86 592 601 6038"/>
+                        android:text="Tel: +86 592 602 9999"/>
 
                     <TextView
                         android:id="@+id/website4"
@@ -273,6 +274,5 @@
         </RelativeLayout>
 
     </ScrollView>
-
 
 </FrameLayout>

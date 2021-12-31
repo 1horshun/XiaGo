@@ -24,18 +24,26 @@
         android:hint="Username"
         android:padding="8dp" />
 
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="27dp"
+        android:text="Your username cannot be changed after registration."
+        android:textColor="#DC143C" />
+
+
     <EditText
         android:id="@+id/mobileNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/username"
         android:layout_marginLeft="18dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="33dp"
         android:layout_marginRight="18dp"
         android:background="@drawable/edit_text_bg"
         android:hint="Mobile Number"
         android:padding="8dp" />
-
 
     <EditText
         android:id="@+id/password"
@@ -68,18 +76,26 @@
         android:layout_below="@+id/cfmPwd"
         android:layout_alignStart="@+id/cfmPwd"
         android:layout_alignEnd="@+id/cfmPwd"
-        android:layout_marginTop="17dp"
-        android:background="@drawable/button_bg"
-        android:text="Sign Up" />
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="65dp"
+        android:backgroundTint="#FFE0B1"
+        android:elevation="8dp"
+        android:text="SignUp"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:text="Already a member? Sign in here"
         android:layout_below="@+id/signUpBtn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp" />
+        android:layout_alignStart="@+id/cfmPwd"
+        android:layout_alignEnd="@+id/cfmPwd"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="#EED7B7"
+        android:text="Already a member? Sign in here"
+        android:textColor="@color/black" />
 
 </RelativeLayout>

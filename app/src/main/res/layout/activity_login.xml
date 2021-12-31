@@ -40,12 +40,16 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
         android:layout_alignStart="@+id/password"
         android:layout_alignEnd="@+id/password"
-        android:layout_marginTop="17dp"
-        android:background="@drawable/button_bg"
-        android:text="Login" />
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="65dp"
+        android:backgroundTint="#FFE0B1"
+        android:elevation="8dp"
+        android:text="Login"
+        android:textColor="@color/black" />
 </RelativeLayout>

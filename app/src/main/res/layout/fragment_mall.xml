@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#C6F4A6"
+    android:background="@drawable/plain_food"
     android:padding="10dp"
     tools:context=".MallFragment">
 
@@ -17,8 +17,7 @@
             android:layout_height="1000dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="5dp"
-            android:background="#DBFFC3">
+            android:layout_marginRight="5dp">
 
             <LinearLayout
                 android:id="@+id/featured_background"

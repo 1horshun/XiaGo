@@ -3,15 +3,11 @@ package com.example.xiago;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -46,7 +42,7 @@ public class HomeActivity extends AppCompatActivity {
                             selectedFragment = new FavouritesFragment();
                             break;
                         case R.id.item3:
-                            selectedFragment = new SettingsFragment();
+                            selectedFragment = new ProfileFragment();
                             break;
                     }
                     //begin
